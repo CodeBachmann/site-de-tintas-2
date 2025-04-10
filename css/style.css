@@ -84,11 +84,25 @@ a:hover {
     background-color: #bfbff3;
 }
 
+.collection-btn {
+    color: grey;
+    background-color: white;
+    border: none;
+    font-size: 2svh;
+
+
+}
+
+.collection-btn:hover {
+    background-color: #bfbff3;
+}
+
 .sidebarTitle {
 
     text-align: center;
     background-color: #bfbff3;
     color: white;
+    padding: 1svh;
     margin-bottom: 1svh;
     border-radius: 5px;
 }
@@ -115,16 +129,16 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .productImageContainer img {
+}
+
+.productImageContainer img {
     width: 100%;
     height: 100%;
     border-radius: 8px;
     object-fit: cover;
-  }
-  
-  .productBox {
+}
+
+.productBox {
     position: relative;
     overflow: hidden;
 }
@@ -134,7 +148,7 @@ a:hover {
     bottom: 35%;
     left: 50%;
     transform: translateX(-50%);
-    background-color:#bfbff3;
+    background-color: #bfbff3;
     color: white;
     padding: 2vh 4vh;
     border: none;
@@ -221,6 +235,48 @@ a:hover {
         width: 48svh;
 
     }
+
+    .carousel {
+        width: 95svh;
+        height: 55svh;
+        overflow: hidden;
+        margin: 5svh auto;
+        border-radius: 6svh;
+        position: relative;
+    }
+
+    .carousel-track {
+        display: flex;
+        width: calc(95vh * 3);
+        animation: scroll 30s infinite;
+    }
+
+    .carousel img {
+        width: 95vh;
+        height: 55vh;
+        object-fit: cover;
+    }
+
+    /* Keyframes for sliding */
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        33% {
+            transform: translateX(-95vh);
+        }
+
+        66% {
+            transform: translateX(-190vh);
+        }
+
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+
 }
 
 #color_box1 {
@@ -317,4 +373,44 @@ a:hover {
     background-color: #bfbff3;
     width: 100%;
     height: 5svh;
+}
+
+.carousel {
+    width: 95svw;
+    height: 45svw;
+    overflow: hidden;
+    margin: 5svh auto;
+    border-radius: 6svh;
+    position: relative;
+}
+
+.carousel-track {
+    display: flex;
+    width: calc(95svw * 3);
+    animation: scroll 30s infinite;
+}
+
+.carousel img {
+    width: 95svw;
+    height: 45svw;
+    object-fit: cover;
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    33% {
+        transform: translateX(-95svw);
+    }
+
+    66% {
+        transform: translateX(-190svw);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }

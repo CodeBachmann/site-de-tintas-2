@@ -1,6 +1,7 @@
 [
     {
       "category": "sprays",
+      "collection": "verao",
       "image": "img/bautyspray.jpg",
       "name": "Bauty Spray",
       "originalPrice": "R$69,90",
@@ -10,6 +11,7 @@
     },
     {
       "category": "externas",
+      "collection": "deep_blues",
       "image": "img/depp_blue.jpg",
       "name": "Deep Blue",
       "originalPrice": "R$74,99",
@@ -19,6 +21,7 @@
     },
     {
       "category": "sprays",
+      "collection": "purple",
       "image": "img/mad_spray.jpg",
       "name": "Mad Spray",
       "originalPrice": "R$66,50",
@@ -28,6 +31,7 @@
     },
     {
       "category": "esmaltes",
+      "collection": "deep_blues",
       "image": "img/blue_ink.jpg",
       "name": "Blue Ink",
       "originalPrice": "R$72,00",
@@ -37,6 +41,7 @@
     },
     {
       "category": "internas",
+      "collection": "purple",
       "image": "img/purple.jpg",
       "name": "Purple",
       "originalPrice": "R$69,99",
@@ -46,6 +51,7 @@
     },
     {
       "category": "internas",
+      "collection": "verao",
       "image": "img/pink_ink.jpg",
       "name": "Pink Ink",
       "originalPrice": "R$64,90",
@@ -54,16 +60,8 @@
       "showButton": false
     },
     {
-      "category": "externas",
-      "image": "img/bautyspray.jpg",
-      "name": "Bauty Spray",
-      "originalPrice": "R$67,80",
-      "finalPrice": "R$34,00",
-      "discount": "-50%",
-      "showButton": false
-    },
-    {
       "category": "esmaltes",
+      "collection": "purple",
       "image": "img/mad_color.jpg",
       "name": "Mad Color",
       "originalPrice": "R$71,00",
@@ -73,6 +71,7 @@
     },
     {
       "category": "sprays",
+      "collection": "verao",
       "image": "https://atlas-content-cdn.pixelsquid.com/stock-images/white-spray-can-aerosol-Xl1WkJ2-600.jpg",
       "name": "Black Spray Can",
       "originalPrice": "R$79,90",

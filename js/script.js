@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const productDiv = document.createElement("div");
                 productDiv.classList.add("productBox");
                 productDiv.setAttribute("data-category", product.category);
+                productDiv.setAttribute("data-collection", product.collection)
 
                 const imageContainer = document.createElement("div");
                 imageContainer.classList.add("productImageContainer");
@@ -58,14 +59,29 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         });
 
-    const buttons = document.querySelectorAll(".category-btn");
+    const category_buttons = document.querySelectorAll(".category-btn");
 
-    buttons.forEach(button => {
+    category_buttons.forEach(button => {
         button.addEventListener("click", () => {
             const category = button.getAttribute("data-category");
             const products = document.querySelectorAll(".productBox");
             products.forEach(product => {
                 if (category === "all" || product.getAttribute("data-category") === category) {
+                    product.style.display = "flex";
+                } else {
+                    product.style.display = "none";
+                }
+            });
+        });
+    });
+    const collection_button = document.querySelectorAll(".collection-btn");
+
+    collection_button.forEach(button => {
+        button.addEventListener("click", () => {
+            const collection = button.getAttribute("data-collection");
+            const products = document.querySelectorAll(".productBox");
+            products.forEach(product => {
+                if (collection === "all" || product.getAttribute("data-collection") === collection) {
                     product.style.display = "flex";
                 } else {
                     product.style.display = "none";
