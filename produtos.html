@@ -1,11 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    UEPA
+    <div class="bodyContent">
+        <div class="headerContainer">
+            <div class="buttonContent">
+                <div class="buttonIcon">
+                    <div class="hole hole1"></div>
+                    <div class="hole hole2"></div>
+                    <div class="hole hole3"></div>
+                    <div class="hole hole4"></div>
+                </div>
+                <div style="margin-left: 1vh;"></div>
+                <a href="index.html">T&B</a>
+            </div>
+            <div class="box" id="linksHeader">
+                <a href="/produtos.html"> Produtos </a>
+                <a href="/carrinho.html"> Carrinho </a>
+                <a href="/contato.html"> Contato </a>
+            </div>
+        </div>
+        <div class="banner">
+            <div id="color_box1"></div>
+            <div id="color_box2"></div>
+            <div id="color_box3"></div>
+            <div id="color_box4"></div>
+            <div id="color_box5"></div>
+        </div>
+        <div class="contentContainer">
+            <sidebar class="sidebar">
+                <div class="sidebarTitle"> Categorias </div>
+                <section class="category-filter">
+                    <div class="categories">
+
+                        <button class="category-btn" data-category="all">Todas</button>
+                        <button class="category-btn" data-category="internas">Tintas Internas</button>
+                        <button class="category-btn" data-category="externas">Tintas Externas</button>
+                        <button class="category-btn" data-category="esmaltes">Esmaltes</button>
+                        <button class="category-btn" data-category="sprays">Sprays</button>
+                    </div>
+                </section>
+            </sidebar>
+            <div class="products"  id="productContainer">
+                
+            </div>
+        </div>
+        <footer class="footer">
+            <div>Tinta no Botão Enterprise</div>
+        </footer>
+    </div>
+
 </body>
+
+
+<script src="js/script.js"></script>
+
 </html>

@@ -1,0 +1,84 @@
+[
+    {
+      "category": "sprays",
+      "image": "img/bautyspray.jpg",
+      "name": "Bauty Spray",
+      "originalPrice": "R$69,90",
+      "finalPrice": "R$34,90",
+      "discount": "-50%",
+      "showButton": false
+    },
+    {
+      "category": "externas",
+      "image": "img/depp_blue.jpg",
+      "name": "Deep Blue",
+      "originalPrice": "R$74,99",
+      "finalPrice": "R$37,99",
+      "discount": "-49%",
+      "showButton": false
+    },
+    {
+      "category": "sprays",
+      "image": "img/mad_spray.jpg",
+      "name": "Mad Spray",
+      "originalPrice": "R$66,50",
+      "finalPrice": "R$32,99",
+      "discount": "-50%",
+      "showButton": false
+    },
+    {
+      "category": "esmaltes",
+      "image": "img/blue_ink.jpg",
+      "name": "Blue Ink",
+      "originalPrice": "R$72,00",
+      "finalPrice": "R$35,99",
+      "discount": "-50%",
+      "showButton": false
+    },
+    {
+      "category": "internas",
+      "image": "img/purple.jpg",
+      "name": "Purple",
+      "originalPrice": "R$69,99",
+      "finalPrice": "R$33,99",
+      "discount": "-51%",
+      "showButton": false
+    },
+    {
+      "category": "internas",
+      "image": "img/pink_ink.jpg",
+      "name": "Pink Ink",
+      "originalPrice": "R$64,90",
+      "finalPrice": "R$30,90",
+      "discount": "-52%",
+      "showButton": false
+    },
+    {
+      "category": "externas",
+      "image": "img/bautyspray.jpg",
+      "name": "Bauty Spray",
+      "originalPrice": "R$67,80",
+      "finalPrice": "R$34,00",
+      "discount": "-50%",
+      "showButton": false
+    },
+    {
+      "category": "esmaltes",
+      "image": "img/mad_color.jpg",
+      "name": "Mad Color",
+      "originalPrice": "R$71,00",
+      "finalPrice": "R$36,50",
+      "discount": "-49%",
+      "showButton": false
+    },
+    {
+      "category": "sprays",
+      "image": "https://atlas-content-cdn.pixelsquid.com/stock-images/white-spray-can-aerosol-Xl1WkJ2-600.jpg",
+      "name": "Black Spray Can",
+      "originalPrice": "R$79,90",
+      "finalPrice": "R$39,90",
+      "discount": "-50%",
+      "showButton": false
+    }
+  ]
+  
