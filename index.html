@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="headerContainer">
+        <div class="box" id="box1">
+            Pintada no Botão
+        </div>
+        <div class="box" id="linksHeader">
+            <a href="/produtos.html"> Produtos </a>
+            <a href="/carrinho.html"> Carrinho </a>
+            <a href="/contato.html"> Contato </a>
+        </div>
+    </div>
+    <img class="banner" src="img/banner.jpg" alt="">
+    <div class="contentContainer">
+        <sidebar class="sidebar">
+            <div class="sidebarTitle"> Categorias </div>
+            <section class="category-filter">
+                <div class="categories">
+
+                    <button class="category-btn" data-category="all">Todas</button>
+                    <button class="category-btn" data-category="internas">Tintas Internas</button>
+                    <button class="category-btn" data-category="externas">Tintas Externas</button>
+                    <button class="category-btn" data-category="esmaltes">Esmaltes</button>
+                    <button class="category-btn" data-category="sprays">Sprays</button>
+                </div>
+            </section>
+        </sidebar>
+        <div class="products">
+            <div class="productBox" data-category="sprays"><img src="img\bautyspray.jpg" alt=""><div class="productInfoBox"><div class="priceLabel">
+                <div class="linedPrice"">R$58,99</div><div class="finalPrice">R$32,99</div></div><div class="discountBox">-50%</div></div> </div>
+            <div class="productBox" data-category="externas"><img src="img\depp_blue.jpg" alt=""></div>
+            <div class="productBox" data-category="sprays"><img src="img\mad_spray.jpg" alt=""></div>
+            <div class="productBox" data-category="esmaltes"><img src="img\blue_ink.jpg" alt=""></div>
+            <div class="productBox" data-category="internas"><img src="img\purple.jpg" alt=""></div>
+            <div class="productBox" data-category="internas"><img src="img\pink_ink.jpg" alt=""></div>
+            <div class="productBox" data-category="externas"><img src="img\bautyspray.jpg" alt=""></div>
+            <div class="productBox" data-category="esmaltes"><img src="img\mad_color.jpg" alt=""></div>
+            <div class="productBox" data-category="sprays"><img src="https://atlas-content-cdn.pixelsquid.com/stock-images/white-spray-can-aerosol-Xl1WkJ2-600.jpg" alt=""></div>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>

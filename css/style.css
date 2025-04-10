@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+}
+.headerContainer {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3rem;
+    width: 100%;
+    background-color: orange;
+    color: aliceblue;
+    border-color: orange;
+    z-index: 1000; /* or any number higher than other elements */
+    font-size: 1rem;
+}
+img {
+    margin-top: 0.2rem;
+    width: 90%;
+    height: 80%;
+    border-radius: 8px;
+}
+.box {
+    display: flex;
+    margin: 0.2rem;
+    flex-wrap: nowrap;
+
+}
+a {
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+    margin: 5%;
+}
+a:hover {
+    color: black;
+}
+.sidebar{
+    position: fixed;
+    border-color: orange;
+    margin-left: 1rem;
+    box-shadow: 1px 1px;
+}
+.contentContainer {
+    display: grid;
+    grid-template-columns: auto;
+}
+.banner{
+    margin-top: 2.7rem;
+    height: 20svh;
+    width: 100%;
+
+}
+.category-btn {
+    color: black;
+    background-color: white;
+    border: none;
+    
+}
+.category-btn:hover {
+    background-color: orange;
+}
+.sidebarTitle {
+    
+    text-align: center;
+    background-color: orange;
+    color: white;
+}
+.categories {
+    display: flex;
+    flex-direction: column;
+}
+.products {
+    margin-left: 9rem;
+    margin-right: 2rem ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.productBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: orange;
+    height: 50svh;
+    width: 25svw;
+    border-radius: 2px;
+}
+.productInfoBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    width: 90%;
+    height: 90%;
+}
+.discountBox {
+    width: 3rem;
+    text-align: center;
+    color: green;
+    background-color: white;
+    border-radius: 4px;
+}
+.linedPrice {
+    text-decoration: line-through;
+    color: black;
+}
+.finalPrice {
+    width: 4rem;
+    text-align: center;
+    color: white;
+    background-color: green;
+    border-radius: 4px;
+}
+
+@media (max-width: 850px) {
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .productBox {
+        width: 32svw;
+        height: 64svh;
+    }
+}
+
+@media (max-width: 520px) {
+    .products {
+        margin-left: 11rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #box1 {
+        display: none;
+    }
+}
