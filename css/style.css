@@ -236,47 +236,6 @@ a:hover {
 
     }
 
-    .carousel {
-        width: 95svh;
-        height: 55svh;
-        overflow: hidden;
-        margin: 5svh auto;
-        border-radius: 6svh;
-        position: relative;
-    }
-
-    .carousel-track {
-        display: flex;
-        width: calc(95vh * 3);
-        animation: scroll 30s infinite;
-    }
-
-    .carousel img {
-        width: 95vh;
-        height: 55vh;
-        object-fit: cover;
-    }
-
-    /* Keyframes for sliding */
-    @keyframes scroll {
-        0% {
-            transform: translateX(0);
-        }
-
-        33% {
-            transform: translateX(-95vh);
-        }
-
-        66% {
-            transform: translateX(-190vh);
-        }
-
-        100% {
-            transform: translateX(0);
-        }
-    }
-
-
 }
 
 #color_box1 {
@@ -364,14 +323,15 @@ a:hover {
 
 .footer {
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     color: white;
     text-align: center;
     font-size: 3svh;
-    margin-top: 5svh;
+    margin-top: 100%;
     background-color: #bfbff3;
-    width: 100%;
+    width: 100svw;
     height: 5svh;
 }
 
